@@ -52,7 +52,10 @@
             border-top-right-radius: 0;
         }
 
-        .btn-group .button {
+        .btn{
+        	border-radius: 8px;
+            width: 65%;
+            height: 50px;
             background-color: #0583F2; /* Green */
             border: none;
             color: white;
@@ -60,21 +63,19 @@
             text-decoration: none;
             display: inline-block;
             cursor: pointer;
-            float: left;
+            float: center;
         }
 
-        .btn-group .button:hover {
+        .btn:hover {
             background-color: #0476D9;
         }
       </style>
 </head>
 <body>
     <form class="form-signin">
-        <img class="mb-4" src="bootstrap-solid.svg" alt="" width="72" height="72">
-        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
-        <label for="inputEmail" class="sr-only"></label>
+        <img class="image" src="bootstrap-solid.svg" alt="" width="60" height="60">
+        <h1 class="text">Please sign in</h1>
         <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only"></label>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required><br>
         <div class="checkbox mb-3">
           <label>
